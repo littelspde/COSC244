@@ -1,0 +1,23 @@
+1. A ‘bridge’ between bitstreams and character streams, translating bits into chars via a specified charset.
+
+2. Have a ‘buffer’ of bits read from the underlying stream that is longer than needed to perform the current read operation.
+
+3. readLine() - a string or null if there is nothing more to read.
+
+4. Prints the given string and the terminates the line (using a newline character /n). Returns void.
+
+5. Creates an instance of a ServerSocket that is bound to the given port.
+
+6. Blocks while it listens to the connection for a connection to be made to the socket then accepts it. Returns the new Socket.
+
+7. Socket(String host, int port)
+
+8. An InputStream object for reading bytes from this socket.
+
+9. getOutputStream()
+
+10. The time, nearest to the millisecond, that it was created.
+
+11. System.out.print(new Date());
+
+12. To show that those are where the port and (optional) host arguments should be put into the terminal call.

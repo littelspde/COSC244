@@ -1,0 +1,33 @@
+Q1 - static InputStream
+
+Q2 - read()
+
+Q3 - the next byte of data as an abstract int
+
+Q4 - -1
+
+Q5 - PrintStream
+
+Q6 - write()
+
+Q7 - int
+
+Q8 - try{
+	out.write(in.read());
+     } catch (IOException e) {
+		System.err.println(“Invalid Input”);
+		System.exit(1);
+	}
+
+
+Q9 - readLine()
+
+Q10 - String, returns null if nothing left to read
+
+Q11 - Scanner sc = new Scanner(System.in);
+
+Q12 - hasNextLine()
+
+Q13 - nextLine(), returns a String
+
+Q14 - next(), should always call hasNext() before calling it

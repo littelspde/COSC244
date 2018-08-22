@@ -1,0 +1,39 @@
+Exercise 1.
+
+  Absolute or relative paths?
+  
+  /home/cshome/u/username  absolute
+                  244/bin  relative
+                  /bin/ls  absolute
+                 bin/sort  relative
+              /usr/bin/wc  absolute
+   home/cshome/u/username  relative
+     ../cshome/u/username  relative
+                 ~/newdir  absolute
+                /bin/sort  absolute
+
+Exercise 2.
+  cd /home/cshome/coursework/244/files/01
+  ls
+  Files in /home/cshome/coursework/244/files/01
+
+Alice.text, Daniel.jpg, France.jpg, sample-text.txt, another_directory, dir1,
+greeting.txt
+
+  cd ~
+  ls /home/cshome/coursework/244/files/01/dir1
+  Files in /home/cshome/coursework/244/files/01/dir1
+
+1file.txt, another_file.txt, long-list-files.txt
+
+
+Exercise 3.
+
+  1. C-a
+  2. C-e
+  3. C-k
+  4. C-x 2
+  5. C-x 1
+  6. Scrolls through positons where the cursor is at the top, middle
+  and bottom of the screen.
+  7. C-a C-e C-k C-l

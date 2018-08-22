@@ -1,0 +1,38 @@
+1. ^
+
+2. Reading streams of raw bytes, such as image data.
+
+3. FileInputStream in = new FileInputStream("input.txt");
+
+4. read();
+   Returns an int
+
+5. Writing streams of raw bytes to a file.
+
+6. FileOutputStream("output.txt");
+
+7. public void write(int b)
+
+8. finalize();
+   close();
+
+9.
+public static void main (String[] args){
+
+       String result;
+       int repeats;
+
+      if (args.length > 0) {
+            try {
+				result = args[0];
+                repeats = Integer.parseInt(args[1]);
+
+    			for (int i = 0; i < repeats; i++){
+       	   			System.out.print(result);
+	   			}
+
+            } catch (NumberFormatException e) {
+                System.err.println("Argument" + args[1] + " must be an integer.");
+                System.exit(1);
+            }
+        }
